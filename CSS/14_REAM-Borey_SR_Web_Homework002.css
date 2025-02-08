@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Dangrek&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Oranienbaum&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dangrek&family=Noto+Sans+KR:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oranienbaum&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#nav-bar a {
+  padding: 10px;
+  margin: 20px 0px;
+  align-items: center;
+  text-decoration: none;
+  color: #102c57;
+}
+#nav-bar a:hover {
+  border-radius: 8px;
+  color: #fefaf6;
+  background-color: #102c57;
+  /* padding: 10px; */
+}
+#nav-bar {
+  font-family: "Koulen", serif;
+  font-size: 1.3em;
+  justify-content: center;
+  /* margin: 10px; */
+  padding: 20px 10px;
+  background-color: #fce7c8;
+}
+#Table {
+  margin: auto;
+  align-content: center;
+  padding: 40px;
+  /* width: 90%;  */
+}
+
+#image1 {
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+  background-image: url("../Images/shi\ chan11.jpg");
+  background-size: cover;
+}
+
+#overlay1 {
+  border-radius: 10px;
+  height: 200px;
+  width: 100px;
+  background-color: rgba(211, 211, 211, 0.1);
+  transition: background-color 0.15s, background-image 0.15s;
+}
+#overlay1:hover {
+  background-color: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.2),
+    transparent,
+    transparent
+  );
+}
+
+#image2 {
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+  background-image: url("../Images/shi\ chan10.jpg");
+  background-size: cover;
+}
+
+#overlay2 {
+  height: 200px;
+  border-radius: 10px;
+  width: 200px;
+  transition: background-color 1.5s;
+}
+#overlay2:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#image3 {
+  border-radius: 10px;
+  height: 200px;
+  width: 405px;
+  background-image: url("../Images/home3.jpg");
+  background-size: cover;
+}
+
+#overlay3 {
+  border-radius: 10px;
+  height: 200px;
+  width: 400px;
+  transition: background-color 1.5s;
+}
+#overlay3:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#image4 {
+  border-radius: 10px;
+  height: 600px;
+  width: 200px;
+  background-image: url("../Images/shi\ chan1.jpg");
+  background-size: cover;
+}
+
+#overlay4 {
+  border-radius: 10px;
+  height: 600px;
+  width: 200px;
+  background-color: rgba(211, 211, 211, 0.1);
+  transition: background-color 0.15s;
+}
+#overlay4:hover {
+  background-color: transparent;
+  background-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.2),
+    transparent,
+    transparent
+  );
+}
+#image5 {
+  border-radius: 10px;
+  height: 200px;
+  width: 400px;
+  background-image: url("../Images/home2.jpg");
+  background-size: cover;
+}
+
+#overlay5 {
+  border-radius: 10px;
+  height: 200px;
+  width: 400px;
+  background-color: rgba(231, 230, 230, 0.1);
+  transition: background-color 0.15s, background-image 0.15s;
+}
+#overlay5:hover {
+  background-color: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.2),
+    transparent,
+    transparent
+  );
+}
+#image6 {
+  border-radius: 10px;
+  height: 400px;
+  width: 200px;
+  background-image: url("../Images/nature.jpg");
+  background-size: cover;
+}
+
+#overlay6 {
+  border-radius: 10px;
+  height: 400px;
+  width: 400px;
+  transition: background-color 1.5s;
+}
+#overlay6:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#image7 {
+  border-radius: 10px;
+  height: 400px;
+  width: 200px;
+  background-image: url("../Images/shi\ chan4.jpg");
+  background-size: cover;
+}
+
+#image7 {
+  border-radius: 10px;
+  height: 400px;
+  width: 200px;
+  background-image: url("../Images/shi\ chan4.jpg");
+  background-size: cover;
+}
+
+#overlay7 {
+  border-radius: 10px;
+  height: 400px;
+  width: 200px;
+  transition: background-color 1.5s;
+}
+#overlay7:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#image8 {
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+  background-image: url("../Images/shi\ chan7.jpg");
+  background-size: cover;
+}
+
+#overlay8 {
+  height: 200px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: rgba(211, 211, 211, 0.1);
+  transition: background-color 0.15s, background-image 0.15s;
+}
+#overlay8:hover {
+  background-color: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.2),
+    transparent,
+    transparent
+  );
+}
+
+#image9 {
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+  background-image: url("../Images/shi\ chan8.jpg");
+  background-size: cover;
+}
+
+#overlay8 {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: rgba(211, 211, 211, 0.1);
+  transition: background-color 0.15s, background-image 0.15s;
+}
+#overlay9:hover {
+  background-color: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.2),
+    transparent,
+    transparent
+  );
+}
+#section {
+  width: 95%;
+  margin: auto;
+}
+button {
+  background-color: #102c57;
+  color: #fefaf6;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 25px;
+}
+#conlumn {
+  width: 95%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+hr {
+  margin-top: 5px;
+}
+#conlumn td,
+th {
+  font-family: sans-serif;
+  border: 1px black solid;
+  border-radius: 5px;
+  text-align: center;
+}
+#conlumn tr td,
+th {
+  font-size: 20px;
+  font-family: "Roboto", serif;
+}
+#conlumn th {
+  height: 30px;
+}
+.backgrounds {
+  background-color: #fce7c8;
+}
+#puople {
+  background-color: #5e5881;
+  color: #fefaf6;
+}
+.korea {
+  font-family: "Noto Sans KR", serif;
+}
+.english {
+  font-family: "Noto Sans", serif;
+}
+.jan {
+  font-family: "Noto Sans JP", serif;
+}
+footer {
+  background-color: #fce7c8;
+  padding: 1em;
+  p {
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+  }
+}
+.red:hover {
+  background-color: #780c28;
+  color: #fefaf6;
+}
+.change:hover td {
+  background-color: #fce7c8;
+  color: #102c57;
+  font-weight: bold;
+}
+.change td {
+  transition: background-color 1s;
+}
